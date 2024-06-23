@@ -1,0 +1,75 @@
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../assets/todo_homepage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+  
+p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.login{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.login:hover{
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1.75rem;
+    }
+}
+  
