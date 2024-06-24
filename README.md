@@ -40,7 +40,7 @@ The application also includes unit tests for all main components to ensure funct
 ### Installation
 
 1. **Clone the repository:**
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/sud/todo-app.git
    cd todo-app
 
 2. **Install dependencies:**

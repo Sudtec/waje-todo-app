@@ -3,3 +3,7 @@ ul {
     padding: 0;
     margin-top: 30px;
 }
+.title span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

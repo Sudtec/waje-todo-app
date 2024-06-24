@@ -1,8 +1,21 @@
 .todo-app {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.todo-app h1{
-    text-align: center;
+.todo-app h1 {
+  text-align: center;
+}
+
+.todo-top_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }

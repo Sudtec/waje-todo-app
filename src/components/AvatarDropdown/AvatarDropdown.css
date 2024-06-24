@@ -1,0 +1,58 @@
+.avatar-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-dropdown-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd; /* Add border around the component */
+  border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ddd; /* Add border around the avatar */
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.avatar-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  margin-top: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.logout-button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.logout-button:hover {
+  background-color: #f0f0f0;
+}
